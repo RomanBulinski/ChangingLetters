@@ -1,6 +1,14 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class Main {
 
     public static String swap(String st){
+
+        Set<String > xxx = new SetList<>();
+
+        Set<String> zbior = new HashSet<String>();
 
         String result = "";
         char[] letters = st.toCharArray();
@@ -14,10 +22,7 @@ public class Main {
         }
         return result;
     }
-
 }
-
-
 
 //public class Kata {
 //    public static String swap(String str) {
